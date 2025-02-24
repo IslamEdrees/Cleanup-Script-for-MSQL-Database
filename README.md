@@ -44,6 +44,8 @@ The script will:
 
 ## Tables Affected
 The script checks and cleans up the following tables:
+- Don't forget the pramter
+- TABLES["datamart_queue_details"]="EVENT_TIME"
 - `datamart_queue_details`
 - `datamart_call_details`
 - `datamart_cmp_call_list_details`
